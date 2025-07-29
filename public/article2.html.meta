@@ -1,0 +1,17 @@
+{
+    "Content-Type": "text/html",
+    "Link": [
+        "<https://doi.org/10.5061/dryad.5d23f> ; rel=\"cite-as\"", 
+        "<https://schema.org/ScholarlyArticle> ; rel=\"type\"",
+        "<https://schema.org/AboutPage> ; rel=\"type\"", 
+        "<https://orcid.org/0000-0002-1825-0097> ; rel=\"author\"",
+        "<https://example.org/meta/7507/bibtex> ; rel=\"describedby\" ; type=\"application/x-bibtex\"",
+        "<https://doi.org/10.5061/dryad.5d23f> ; rel=\"describedby\" ; type=\"application/vnd.datacite.datacite+json\"",
+        "<https://spdx.org/licenses/CC-BY-4.0> ; rel=\"license\"",
+        "<https://example.org/file/7507/1> ; rel=\"item\" ; type=\"application/pdf\"",
+        "<https://example.org/file/7507/2> ; rel=\"item\" ; type=\"text/csv\"",
+        "<https://gitmodo.io/johnd/ct.zip> ; rel=\"item\" ; type=\"application/zip\"",
+        "<https://example.org/linkset/7507/lset> ; rel=\"linkset\" ; type=\"application/linkset\"",
+        "<https://example.org/linkset/7507/json> ; rel=\"linkset\" ; type=\"application/linkset+json\""
+    ]
+}

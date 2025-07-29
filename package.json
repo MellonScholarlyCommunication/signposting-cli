@@ -1,0 +1,30 @@
+{
+  "name": "signposting-cli",
+  "version": "1.0.0",
+  "description": "A FAIR Signposting client",
+  "main": "lib/signposting.js",
+  "scripts": {
+    "server": "npx mellon-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MellonScholarlyCommunication/signposting-cli.git"
+  },
+  "author": "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MellonScholarlyCommunication/signposting-cli/issues"
+  },
+  "homepage": "https://github.com/MellonScholarlyCommunication/signposting-cli#readme",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "exponential-backoff": "^3.1.2",
+    "http-link-header": "^1.1.3",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^1.7.1",
+    "parse-link-header": "^2.0.0"
+  },
+  "devDependencies": {
+    "mellon-server": "^1.1.2"
+  }
+}
