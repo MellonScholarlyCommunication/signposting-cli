@@ -11,7 +11,7 @@
         "<https://example.org/file/7507/1> ; rel=\"item\" ; type=\"application/pdf\"",
         "<https://example.org/file/7507/2> ; rel=\"item\" ; type=\"text/csv\"",
         "<https://gitmodo.io/johnd/ct.zip> ; rel=\"item\" ; type=\"application/zip\"",
-        "<https://example.org/linkset/7507/lset> ; rel=\"linkset\" ; type=\"application/linkset\"",
-        "<https://example.org/linkset/7507/json> ; rel=\"linkset\" ; type=\"application/linkset+json\""
+        "<http://localhost:8000/lset.txt> ; rel=\"linkset\" ; type=\"application/linkset\"",
+        "<http://localhost:8000/lset.json> ; rel=\"linkset\" ; type=\"application/linkset+json\""
     ]
 }

@@ -1,0 +1,21 @@
+<https://doi.org/10.5061/dryad.5d23f> ; rel="cite-as" ; anchor="https://example.org/page/7507" , 
+<https://schema.org/ScholarlyArticle> ; rel="type" ; anchor="https://example.org/page/7507" , 
+<https://schema.org/AboutPage> ; rel="type" ; anchor="https://example.org/page/7507" , 
+<https://orcid.org/0000-0002-1825-0097> ; rel="author" ; anchor="https://example.org/page/7507" , 
+<https://isni.org/isni/0000002251201436> ; rel="author" ; anchor="https://example.org/page/7507" ,
+<https://example.org/file/7507/1> ; rel="item" ; type="application/pdf" ; anchor="https://example.org/page/7507" , 
+<https://example.org/file/7507/2> ; rel="item" ; type="text/csv" ; anchor="https://example.org/page/7507" , 
+<https://gitmodo.io/johnd/ct.zip> ; rel="item" ; type="application/zip" ; anchor="https://example.org/page/7507" ,
+<https://example.org/meta/7507/bibtex> ; rel="describedby" ; type="application/x-bibtex" 
+; anchor="https://example.org/page/7507" , <https://doi.org/10.5061/dryad.5d23f> ; rel="describedby" ; 
+type="application/vnd.datacite.datacite+json" ; anchor="https://example.org/page/7507" , 
+<https://example.org/meta/7507/citeproc> ; rel="describedby" ; type="application/vnd.citationstyles.csl+json" ; 
+anchor="https://example.org/page/7507" , <https://spdx.org/licenses/CC-BY-4.0> ; rel="license" ; 
+anchor="https://example.org/page/7507" , <https://example.org/page/7507> ; rel="collection" ; type="text/html" ; 
+anchor="https://example.org/file/7507/1" , <https://example.org/page/7507> ; rel="collection" ; 
+type="text/html" ; anchor="https://example.org/file/7507/2" , <https://schema.org/Dataset> ; rel="type" ; 
+anchor="https://example.org/file/7507/2" , <https://example.org/page/7507> ; rel="collection" ; type="text/html" ; 
+anchor="https://gitmodo.io/johnd/ct.zip" , <https://schema.org/SoftwareSourceCode> ; rel="type" ; 
+anchor="https://gitmodo.io/johnd/ct.zip" <https://example.org/page/7507> ; rel="describes" ; type="text/html" ; 
+anchor="https://doi.org/10.5061/dryad.5d23f" , <https://example.org/page/7507> ; rel="describes" ; type="text/html" ; 
+anchor="https://example.org/meta/7507/bibtex"
