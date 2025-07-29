@@ -16,6 +16,6 @@ anchor="https://example.org/file/7507/1" , <https://example.org/page/7507> ; rel
 type="text/html" ; anchor="https://example.org/file/7507/2" , <https://schema.org/Dataset> ; rel="type" ; 
 anchor="https://example.org/file/7507/2" , <https://example.org/page/7507> ; rel="collection" ; type="text/html" ; 
 anchor="https://gitmodo.io/johnd/ct.zip" , <https://schema.org/SoftwareSourceCode> ; rel="type" ; 
-anchor="https://gitmodo.io/johnd/ct.zip" <https://example.org/page/7507> ; rel="describes" ; type="text/html" ; 
+anchor="https://gitmodo.io/johnd/ct.zip" , <https://example.org/page/7507> ; rel="describes" ; type="text/html" ; 
 anchor="https://doi.org/10.5061/dryad.5d23f" , <https://example.org/page/7507> ; rel="describes" ; type="text/html" ; 
 anchor="https://example.org/meta/7507/bibtex"
