@@ -8,16 +8,31 @@ program
 
 program.command('signposting')
   .argument('<url>', 'url to fetch')
-  .action( async (url) => {
-     const info = await signpostingInfo(url,{});
-     console.log(JSON.stringify(info,null,2));
+  .argument('[<rel>]', 'relation')
+  .action( async (url,rel) => {
+     const info = await signpostingInfo(url);
+
+     if (rel) {
+        console.log(JSON.stringify(info.get(rel),null,2));
+     }
+     else {
+        console.log(JSON.stringify(info.links(),null,2));
+     }
   });
 
 program.command('linkset') 
+  .option('-a, --anchor <anchor>', 'anchor to filter')
   .argument('<url>', 'url to fetch')
-  .action( async (url) => {
-     const info = await linkSetInfo(url,{});
-     console.log(JSON.stringify(info,null,2));
+  .argument('[<rel>]', 'relation')
+  .action( async (url,rel,opts) => {
+     const info = await linkSetInfo(url);
+
+     if (rel) {
+        console.log(JSON.stringify(info.get(rel,opts.anchor),null,2));
+     }
+     else {
+        console.log(JSON.stringify(info.links(opts.anchor),null,2));
+     }
   });
 
 program.parse();
