@@ -104,10 +104,32 @@ npm run server
 
 Connect to http://localhost:8000 to view the artifacts
 
-**Run a command line tool to fetch and parse the signpost and link sets**
+**Fetch and parse the signposts**
 
 ```
-./bin/signpost-cli
+./bin/signposting-cli.js signposting http://localhost:8000/article1.html
 ```
 
+**Fetch and parse the signposts and filter the 'type' property**
 
+```
+./bin/signposting-cli.js signposting http://localhost:8000/article1.html type
+```
+
+**Fetch and parse a linkset**
+
+```
+/bin/signposting-cli.js linkset http://localhost:8000/lset.txt
+```
+
+**Fetch and parse a linkset and filter the 'type' property**
+
+```
+/bin/signposting-cli.js linkset http://localhost:8000/lset.txt type
+```
+
+**Fetch and parse a linkset  for the anchor 'https://gitmodo.io/johnd/ct.zip' and filter the 'type' property**
+
+```
+/bin/signposting-cli.js linkset -a https://gitmodo.io/johnd/ct.zip http://localhost:8000/lset.txt type
+```

@@ -23,10 +23,9 @@
   "homepage": "https://github.com/MellonScholarlyCommunication/signposting-cli#readme",
   "dependencies": {
     "commander": "^14.0.0",
-    "exponential-backoff": "^3.1.2",
     "http-link-header": "^1.1.3",
+    "isomorphic-fetch": "^3.0.0",
     "jsdom": "^26.1.0",
-    "node-fetch": "^1.7.1",
     "parse-link-header": "^2.0.0"
   },
   "devDependencies": {
