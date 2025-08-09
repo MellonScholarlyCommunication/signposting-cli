@@ -1,0 +1,7 @@
+{
+    "Content-Type": "text/plain",
+    "Link": [
+        "<http://localhost:8000/article1.html> ; rel=\"collection\" ; type=\"text/html\"",
+        "<https://schema.org/Dataset> ; rel=\"type\"" 
+    ]
+}
