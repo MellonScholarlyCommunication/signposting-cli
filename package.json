@@ -6,7 +6,9 @@
   "scripts": {
     "server": "npx mellon-server"
   },
-  "bin": "./bin/signposting-cli.js",
+  "bin": {
+    "signposting-cli": "bin/signposting-cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MellonScholarlyCommunication/signposting-cli.git"
