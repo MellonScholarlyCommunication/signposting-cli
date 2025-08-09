@@ -12,7 +12,10 @@ program.command('signposting')
   .action( async (url,rel) => {
      const info = await signpostingInfo(url);
 
-     if (rel) {
+     if (!info) {
+         console.log(JSON.stringify(null,null,2));
+     }
+     else if (rel) {
         console.log(JSON.stringify(info.get(rel),null,2));
      }
      else {
@@ -27,7 +30,10 @@ program.command('linkset')
   .action( async (url,rel,opts) => {
      const info = await linkSetInfo(url);
 
-     if (rel) {
+     if (!info) {
+         console.log(JSON.stringify(null,null,2));
+     }
+     else if (rel) {
         console.log(JSON.stringify(info.get(rel,opts.anchor),null,2));
      }
      else {
